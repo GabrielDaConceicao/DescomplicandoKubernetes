@@ -1,3 +1,6 @@
+echo "kubectl run nginx --image nginx --port=80 --dry-run=client -o yaml > pod.yaml"
+echo "vim pod.yaml"
+
 apiVersion: v1
 kind: Pod
 metadata:
